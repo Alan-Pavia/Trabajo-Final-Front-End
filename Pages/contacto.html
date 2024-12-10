@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passion Sports</title>
+    <link rel="stylesheet" href="../styles/contacto.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- Logo -->
+            <a href="../index.html" class="logo">Passion Sports</a>
+
+            <!-- Enlaces de navegación -->
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Pages/productos.html">Productos</a></li>
+                <li><a href="../Pages/nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+
+            <div class="container-icon">
+                <a href="../Pages/productos.html" class="cart-icon-link">
+                    <div class="container-cart-icon">
+                        <!-- SVG del carrito de compras con tamaño ajustado -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="icon-cart" width="40" height="40">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Contáctanos</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Celular (Opcional)</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Passion Sports. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

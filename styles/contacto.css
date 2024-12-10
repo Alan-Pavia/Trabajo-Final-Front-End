@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Deca:wght@100..900&family=Poppins&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .logo, a, li {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 15px;
+    padding: 20px 0 20px 0;
+    color: #111;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 20px;
+}
+
+.navbar .logo {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.nav-links {
+    list-style: none;
+    margin-right: 1.5rem;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nav-links a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    position: relative;
+    color: #111;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff5733;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.nav-links a:hover {
+    text-decoration: none;
+}
+
+.contact {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #ff5733;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff2d00;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin: 0;
+}
