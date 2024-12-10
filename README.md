@@ -44,8 +44,3 @@ El directorio debe estar bien organizado, siguiendo estas directrices:
 - Agregar productos al carrito.
 - Calcular y mostrar el total de la compra en tiempo real.
 - Alertar al usuario con un mensaje de éxito al finalizar la compra.
-
-## Instrucciones de Uso
-1. Clonar este repositorio en tu máquina local.
-2. Abrir el archivo `index.html` en cualquier navegador.
-3. Explorar las secciones, agregar productos al carrito y finalizar la compra.
