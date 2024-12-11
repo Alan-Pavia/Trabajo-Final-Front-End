@@ -127,3 +127,11 @@ const showHTML = () => {
 	valorTotal.innerText = `$${total}`;
 	countProducts.innerText = totalOfProducts;
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+    const btnFinalizarCompra = document.getElementById("btn-finalizar-compra");
+
+    btnFinalizarCompra.addEventListener("click", () => {
+        alert("Compra realizada con éxito");
+    });
+});

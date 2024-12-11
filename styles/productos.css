@@ -182,6 +182,27 @@ header .logo, a, li {
     color: #888;
 }
 
+.cart-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cart-actions .btn-primary {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-actions .btn-primary:hover {
+    background-color: #ff2d00;
+}
+
 .container-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
