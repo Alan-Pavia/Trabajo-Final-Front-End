@@ -26,8 +26,10 @@ const cartTotal = document.querySelector('.cart-total');
 
 productsList.addEventListener('click', e => {
 	if (e.target.classList.contains('btn-add-cart')) {
+		//vuelve para atras al elemento donde se contiene el boton (el div con la clase "Info-Product").
 		const product = e.target.parentElement;
 
+		//Hagarro las carts y las pongo en un arreglo con toda su informacion.
 		const infoProduct = {
 			quantity: 1,
 			title: product.querySelector('h2').textContent,
