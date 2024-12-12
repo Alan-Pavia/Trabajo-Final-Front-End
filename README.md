@@ -1,6 +1,7 @@
 # Trabajo-Final-Front-End
 Trabajo Final de Módulo. 
-*Tiene muchas cosas a mejorar en cuanto a codigo y diseño. En un futuro le agragare lo que sea necesario para que quede lo mas completa posible 😄
+
+#Tiene muchas cosas a mejorar en cuanto a codigo y diseño. En un futuro le agragare lo que sea necesario para que quede lo mas completa posible 😄
 
 # Proyecto: Simulación de Carrito de Compras
 
